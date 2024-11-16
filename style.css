@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(https://i.pinimg.com/736x/55/de/17/55de17039c474103294f26b95f0127c6.jpg);
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: url(https://i.pinimg.com/736x/55/de/17/55de17039c474103294f26b95f0127c6.jpg);
+    color: rgb(11, 10, 10);
+    padding: 40px 0;
+}
+
+.profile-container {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 330px;
+    height: 440px;
+    margin-bottom: 20px;
+}
+
+
+.motto {
+    font-style: italic;
+    color: #675e5e;
+}
+
+
+/* Section */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#contact .tk-content .sd-content, .smp-content .smk-content{
+    display: flex;
+    gap: 2em;
+    -ms-flex-align: var();
+}
+
+#contact .tk-content img, #contact .sd-content img, #contact .smp-content img, #contact .smk-content img{
+ width: 10%;
+} 
+
+.prestasi{
+    width: 300px;
+}
+
+.ig{
+    width: 50px;
+}
+
+.wa{
+    margin-bottom: -50px;
+    width: 50px;
+}
+
+.text{
+    padding-top: 1px;
+}
+
+.email{
+    margin-bottom: -50px;
+    width: 50px;
+}
+
+
+
+
+/* Projects List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
